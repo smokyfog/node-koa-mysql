@@ -1,0 +1,19 @@
+
+自动加载模块
+cnpm i require-directory --save
+// 导入
+const requireDirectory = require('require-directory')
+requireDirectory(module, '../app/api/v1', { visit: whenLoadModule })
+function whenLoadModule(obj) {
+  if (obj instanceof Router) {
+    InitManager.app.use(obj.routes())
+  }
+}
+
+process.cwd()  // 获取应用的根目录的绝当路径
+
+
+koa 获取参数
+1.  安装koa-bodyparser
+cnpm i koa-bodyparser --save
+

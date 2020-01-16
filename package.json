@@ -1,0 +1,25 @@
+{
+  "name": "koa-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smokyfog/node-koa-mysql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smokyfog/node-koa-mysql/issues"
+  },
+  "homepage": "https://github.com/smokyfog/node-koa-mysql#readme",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "require-directory": "^2.1.1"
+  }
+}
